@@ -5,9 +5,6 @@
 
 // }
 // console.log(square(9));
-
-
-
 // var square1 = x => x * x;
 // console.log(square1(9));
 
