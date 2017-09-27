@@ -6,7 +6,7 @@ var fetchNotes = () => {
         try {
             //reads the file if it exists , if not it will throw an error 
             var notesString = fs.readFileSync("notes.json");
-            //converts the object to js object if anythign curropted data occured , an error will be thrown
+            //converts the object to js object if anything curropted data occured , an error will be thrown
             return JSON.parse(notesString);
         } catch (e) {
             return [];
